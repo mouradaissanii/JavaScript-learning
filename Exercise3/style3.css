@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+}
+
+#myLabel {
+    display: block;
+    font-size: 3em;
+    font-family: Verdana;
+}
+
+#mySubmit {
+    font-size: 1.5em;
+    padding: 5px 15px;
+    color: white;
+    background-color: hsl(207, 100%, 56%);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#mySubmit:hover {
+    background-color: hsl(207, 100%, 76%);
+}
+
+#resultElement {
+    font-family: monospace;
+}
